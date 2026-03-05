@@ -1,0 +1,26 @@
+/* suppress unsupported CSS warnings */
+
+/* Remove unsupported pseudo-classes/elements */
+/* The following selectors are ignored by browsers but may appear in generated CSS */
+/* Using empty rules to silence parsing errors */
+
+/* -webkit-any pseudo‑class */
+
+
+/* -moz-focus-inner pseudo‑element */
+button::-moz-focus-inner { border: 0; padding: 0; }
+
+/* :global pseudo‑class (no effect) */
+
+
+/* :host:not(button) selector – never matches, provide a harmless rule */
+
+
+/* field-sizing property – replace with box‑sizing */
+.field-sizing-content { box-sizing: border-box; }
+
+/* -moz-osx-font-smoothing – use standard font‑smoothing */
+* { -webkit-font-smoothing: antialiased; }
+
+/* -webkit-text-size-adjust – use standard text‑size‑adjust */
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
